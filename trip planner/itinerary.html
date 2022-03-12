@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <link rel="stylesheet" href="itinerary.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="itinerary.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+           <li><a href="team.html">HOME</a></li>
+           <li><a href="bill.html">EXPENSES</a></li>
+           <li><a href="location.html">LOCATIONS</a></li>
+           <li><a href="itinerary.html">ITINERARY</a></li>
+           <li><a href="songs.html">PLAYLIST</a></li>
+           <li><a href="http://localhost:3000/">PHOTOS</a></li> 
+        </ul>
+    </nav>
+    <div class="add">
+        <input type="text" id="day" value="Day">
+        <button onclick="addDay()">Add day</button>
+    </div>
+    <div class="add">
+        <input type="text" id="myText" value="New Goal">
+        <button onclick="addToDo()">Add goal</button>
+    </div>
+    <div id="parent"></div>
+</body>
+</html>

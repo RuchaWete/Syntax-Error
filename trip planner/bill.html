@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<link rel="stylesheet" type="text/css" href="bill.css" />
+</head>
+<body>
+	<nav class="navbar">
+        <ul>
+           <li><a href="team.html">HOME</a></li>
+           <li><a href="bill.html">EXPENSES</a></li>
+           <li><a href="location.html">LOCATIONS</a></li>
+           <li><a href="itinerary.html">ITINERARY</a></li>
+           <li><a href="songs.html">PLAYLIST</a></li>
+           <li><a href="http://localhost:3000/">PHOTOS</a></li> 
+        </ul>
+    </nav>
+	<header>
+		<h1>Bill Splitter</h1>
+	</header>
+
+	<section>
+		<div>
+			<h3 id="res">Calculate each person's share</h3>
+		</div>
+	</section>
+	<section>
+		<div>
+			<input id="amount" type="number" placeholder="Enter bill amount">
+		</div>
+		<div>
+            <p>Paid by:</p>
+			<button onclick="calculate(0)">User 0</button>
+            <button onclick="calculate(1)">User 1</button>
+            <button onclick="calculate(2)">User 2</button>
+            <button onclick="calculate(3)">User 3</button>
+            
+		</div>
+        <div>
+            <h3 id="0_1"></h3>
+            <h3 id="0_2"></h3>
+            <h3 id="0_3"></h3>
+            <h3 id="1_0"></h3>
+            <h3 id="1_1"></h3>
+            <h3 id="1_2"></h3>
+            <h3 id="1_3"></h3>
+            <h3 id="2_0"></h3>
+            <h3 id="2_1"></h3>
+            <h3 id="2_3"></h3>
+            <h3 id="3_0"></h3>
+            <h3 id="3_1"></h3>
+            <h3 id="3_2"></h3>
+        </div>
+        
+		<div>
+			<button onclick="due();">Update Dues</button>
+		</div>
+        
+	</section>
+    <script src="bill.js" defer></script>
+
+</body>
+</html>>
