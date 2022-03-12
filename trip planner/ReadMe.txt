@@ -13,3 +13,6 @@ The user begins by logging into the app. Firebase is used to authenticate these 
 4) Bill - While the bill splitting mechanism currently implemented is quite a basic one, we planned on implementing a more advanced version that presents the final dues and also supports unequal distribution but this could not be achieved due to lack of time.
 5) Music - Spotify web-api was embedded for a dummy album. This album can be replaced by another album by the user which can be shared by the group. 
  
+ To run the app:
+ 1. run "npm start" in the terminal.
+ 2. Open "login.html" file.
